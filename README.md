@@ -3,11 +3,13 @@
 V okviru predmeta **Uvod v programiranje** sem pripravila projektno nalogo, v kateri sem analizirala rezultate dirkačev in ekip v svetovnem prvenstvu Formule 1 za zadnja štiri zaključena prvenstva (sezone 2021, 2022, 2023 in 2024). Podatki so bili zajeti z uradne spletne strani [Formula 1](https://www.formula1.com/).
 
 ## STRUKTURA REPOZITORIJA
-* `zajem_podatkov.py` – skripta za prenos spletnih strani in luščenje podatkov z regularnimi izrazi.
-* `strani/` – mapa s shranjenimi surovimi HTML datotekami posameznih sezon.
-* `dirkaci_f1.csv` – končna CSV datoteka z vsemi obdelanimi podatki.
-* `analiza.ipynb` – Jupyter Notebook z analizo podatkov, izračuni in grafičnimi prikazi.
-* `uporaba-ui.md` – poročilo o uporabi umetne inteligence pri izdelavi naloge.
+* `README.md` – glavna predstavitvena datoteka z opisom projekta, navodili in ugotovitvami
+* `zajem_podatkov.py` – skripta za prenos spletnih strani in luščenje podatkov z regularnimi izrazi
+* `strani/` – mapa s shranjenimi surovimi HTML datotekami posameznih sezon
+* `dirkaci_f1.csv` – končna CSV datoteka z vsemi obdelanimi podatki
+* `analiza.ipynb` – Jupyter Notebook z analizo podatkov, izračuni in grafičnimi prikazi
+* `uporaba-ui.md` – poročilo o uporabi umetne inteligence pri izdelavi naloge
+* `.gitignore` – datoteka, ki določa, katere datoteke Git prezre
 
 ## NAVODILA ZA ZAGON
 1. Za delovanje analize potrebujete nameščene knjižnice `pandas`, `matplotlib`, `requests` in `jupyter`.
